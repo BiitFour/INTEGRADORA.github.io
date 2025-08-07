@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Huerto - Conoce</title>
+  <link rel="stylesheet" href="../css/conoce.css">
+    <link rel="stylesheet" href="../css/index.css">
+          <link rel="stylesheet" href="../css/login.css">
+
+
+  <script src="https://kit.fontawesome.com/fac34afb0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <!-- Inicio Parte 1 -->
+   <!-- Header ajustado -->
+<header class="main-header">
+  <div class="logo d-flex align-items-center">
+  <img src="../img/icons-3.png" alt="Logo MiHuerto" style="height: 40px; margin-right: 10px;">
+  <span style="font-weight: bold; font-size: 1.4rem; color: #388e3c;">MiHuerto</span>
+</div>
+
+  <nav class="main-nav">
+    <a href="../index.html">Inicio</a>
+    <a href="../vistas/about.html">Sobre nosotros</a>
+    <a href="../vistas/conoce.html">Conoce tu planta</a>
+    <a href="../vistas/contacto.html">Contacto</a>
+  </nav>
+    <div class="iconos">
+
+
+<!-- Ahora -->
+<a href="../vistas/login.html"><i class="fa-solid fa-user"></i></a>
+    <div class="menu-hamburguesa">
+  <i class="fa-solid fa-bars" id="menu-icono"></i>
+  <div class="menu-desplegable" id="menu-desplegable">
+    <a href="../index.html">Inicio</a>
+    <a href="#" id="cerrar-sesion">Cerrar sesión</a>
+  </div>
+</div>
+
+  </div>
+</header>
+
+
+<div class="background-container">
+  <!-- Barra de navegación arriba -->
+  <nav class="navbar">
+    <!-- Aquí va tu logo y menú -->
+  </nav>
+
+  <!-- Cuadro blanco del cuestionario -->
+  <div class="quiz-box" id="quiz-box">
+    <div id="step-indicator">1 de 6</div>
+    <h2 id="question-title">Pregunta...</h2>
+    <div id="answers"></div>
+
+    <div class="btn-group">
+      <button id="prevBtn">Anterior</button>
+      <button id="nextBtn">Continuar</button>
+    </div>
+  </div>
+
+  <!-- Resultado oculto al principio -->
+  <div id="result" class="quiz-box hidden">
+    <div id="result-message"></div>
+  </div>
+</div>
+
+<!-- Inicio del footer -->
+
+<footer class="footer-mihuerto">
+  <div class="footer-contenido">
+    <div>
+      <strong>MiHuerto</strong>
+      <br>
+      Contacto<br>
+      <i class="fa-solid fa-envelope"></i>
+      bit4team@outlook.com<br>
+      <i class="fa-solid fa-location-dot"></i>
+      Monterrey, N.L
+    </div>
+    <div>
+      <strong>Síguenos</strong><br>
+      <i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-facebook"></i>    </div>
+  </div>
+  <!-- Derechos reservados -->
+  <div class="footer-copy">
+    © 2025 MiHuerto. Todos los derechos reservados.
+  </div>
+</footer>
+    <script src="https://kit.fontawesome.com/fac34afb0e.js" crossorigin="anonymous"></script>
+<script type="module" src="../js/protegerRuta.js"></script>
+
+
+<!-- Fin del footer -->
+  <script type="module" src="../js/conoce.js"></script>
+      <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/protegerRuta.js"></script>
+</body>
+</html>

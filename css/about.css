@@ -1,0 +1,68 @@
+.sobre-nosotros {
+  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  font-family: 'Georgia', serif;
+  color: #2e4e2f;
+}
+.sobre-nosotros .contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.sobre-nosotros .texto {
+  flex: 1 1 550px;
+  padding-right: 2rem;
+}
+.sobre-nosotros h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.sobre-nosotros p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.sobre-nosotros ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+.sobre-nosotros ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.sobre-nosotros .imagen {
+  flex: 1 1 400px;
+  text-align: center;
+}
+.sobre-nosotros .imagen img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+/* imagen */
+
+.imagen {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+/* Rotacion imagen */
+
+.imagen img {
+  max-width: 150%;
+  height: auto;
+  transform: rotate(90deg) !important;
+
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+
