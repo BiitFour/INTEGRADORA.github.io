@@ -1,0 +1,106 @@
+/* login.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f5f1;
+  color: #2e4e2f;
+}
+
+.main-header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #2e4e2f;
+  font-weight: 600;
+}
+
+.iconos i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  color: #2e4e2f;
+  cursor: pointer;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-image: url('../img/fondo-planta.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: 600;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  background-color: #6d8e72;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-box button:hover {
+  background-color: #5a7a61;
+}
+
+.register-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.register-text a {
+  color: #2e4e2f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/contacto.css">
+        <link rel="stylesheet" href="../css/login.css">
+
+
+  <title>Mi Huerto - Contacto</title>
+</head>
+<body>
+<!-- Inicio Parte 1 -->
+    <!-- Header ajustado -->
+<header class="main-header">
+  <div class="logo d-flex align-items-center">
+  <img src="../img/icons-3.png" alt="Logo MiHuerto" style="height: 40px; margin-right: 10px;">
+  <span style="font-weight: bold; font-size: 1.4rem; color: #388e3c;">MiHuerto</span>
+</div>
+
+  <nav class="main-nav">
+    <a href="../index.html">Inicio</a>
+    <a href="../vistas/about.html">Sobre nosotros</a>
+    <a href="../vistas/conoce.html">Conoce tu planta</a>
+    <a href="../vistas/contacto.html">Contacto</a>
+  </nav>
+    <div class="iconos">
+
+
+<!-- Ahora -->
+<a href="../vistas/login.html"><i class="fa-solid fa-user"></i></a>
+    <div class="menu-hamburguesa">
+  <i class="fa-solid fa-bars" id="menu-icono"></i>
+  <div class="menu-desplegable" id="menu-desplegable">
+    <a href="../index.html">Inicio</a>
+    <a href="#" id="cerrar-sesion">Cerrar sesión</a>
+  </div>
+</div>
+
+  </div>
+</header>
+
+
+<!-- CONTACTO -->
+
+<section class="contacto">
+  <h2>¿En qué te puedo ayudar?</h2>
+  <h3>Contáctame a través del siguiente formulario y te responderé en menos de 48 horas.</h3>
+
+
+  <div class="form-contacto">
+  <div class="formulario-contenedor">
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" placeholder="Nombre">
+
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" placeholder="Correo electrónico">
+
+      <label for="mensaje">Escribe tu mensaje, ¡te contactaremos pronto!</label>
+      <textarea id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </div>
+  <div class="planta-derecha">
+    <img src="../img/MiHuerto.png" alt="planta decorativa">
+  </div>
+</div>
+
+
+
+</section>
+   <br><br><br><br>
+<!-- Inicio del footer -->
+
+<footer class="footer-mihuerto">
+  <div class="footer-contenido">
+    <div>
+      <strong>MiHuerto</strong>
+      <br>
+      Contacto<br>
+      <i class="fa-solid fa-envelope"></i>
+      bit4team@outlook.com<br>
+      <i class="fa-solid fa-location-dot"></i>
+      Monterrey, N.L
+    </div>
+    <div>
+      <strong>Síguenos</strong><br>
+      <i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-facebook"></i>    </div>
+  </div>
+  <!-- Derechos reservados -->
+  <div class="footer-copy">
+    © 2025 MiHuerto. Todos los derechos reservados.
+  </div>
+</footer>
+    <script src="https://kit.fontawesome.com/fac34afb0e.js" crossorigin="anonymous"></script>
+<!-- Fin del footer -->
+ <!-- Conexion a Firebase -->
+  <script type="module" src="../js/conexion.js"></script>
+  <!-- Guardar formulario de contacto a firebase -->
+<script type="module" src="../js/contacto.js"></script>
+<script type="module" src="../js/protegerRuta.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+
+</body>
+</html>
